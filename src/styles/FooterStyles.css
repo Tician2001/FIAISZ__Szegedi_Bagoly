@@ -1,0 +1,32 @@
+footer{
+    background-color: #f1f0e8;
+    border-top: 3px solid #4C3D3D;
+}
+footer a{
+    font-weight: bold;
+}
+.list-group-item {
+    background-color: #F1F0E8;
+}
+.list-group-item a {
+    color: #c07f00;
+}
+.OwlLink{
+    color: #4C3D3D;
+}
+
+.list-group-item:hover{
+    text-decoration: none;
+    font-weight: bold;
+    transform: scaleX(1.1);
+    transition: all 0.3s ease-in-out; 
+}
+.list-group-item a:hover{
+    text-decoration: none;
+    color: #4C3D3D ;
+}
+
+.text-info:hover{
+    text-decoration: none;
+    
+}
