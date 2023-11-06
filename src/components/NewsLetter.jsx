@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 
 import Aranykapu1 from "../assets/1.png";
 import Aranykapu2 from "../assets/2.png";
-import "../styles/ContentStyles.scss";
+import "../App.scss";
 import 'lightgallery/css/lightgallery.css';
 import 'lightgallery/css/lg-zoom.css';
 import 'lightgallery/css/lg-thumbnail.css';

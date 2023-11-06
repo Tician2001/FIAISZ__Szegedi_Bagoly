@@ -3,7 +3,7 @@ import AuthContext from "../context/AuthProvider";
 import vuk from "../assets/Vuk.jpg"
 import tuskevar from "../assets/Tüskevár.jpg";
 import TK from "../assets/szegediTK_1.jpg.png";
-import "../styles/ContentStyles.scss";
+import "../App.scss";
 
 import axios from '../api/axios';
 const LOGIN_URL = '/auth';

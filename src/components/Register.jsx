@@ -5,7 +5,7 @@ import axios from '../api/axios';
 import vuk from "../assets/Vuk.jpg"
 import tuskevar from "../assets/Tüskevár.jpg";
 import TK from "../assets/szegediTK_1.jpg.png";
-import "../styles/ContentStyles.scss";
+import "../App.scss";
 
 const USER_REGEX = /^[A-z][A-z0-9-_]{3,23}$/;
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[.!#$%]).{8,24}$/;

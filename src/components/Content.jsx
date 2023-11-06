@@ -1,4 +1,4 @@
-import "../styles/ContentStyles.scss";
+import "../App.scss";
 import vuk from "../assets/Vuk.jpg"
 import tuskevar from "../assets/Tüskevár.jpg";
 import TK from "../assets/szegediTK_1.jpg.png";
@@ -17,36 +17,7 @@ const Content = () => {
 
         <div className=" container-fluid d-flex justify-content-center text-center h4 py-4">
 
-            <div class="set">
-                <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%"/></div>
-            </div>
-            <div class="set set2">
-                <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%"/></div>
-            </div>
-            <div class="set set3">
-                <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%"/></div>
-            </div>
+            
             <div className="row content">
                 <div className="col-sm-2 sidenav position-static float-left">
                     <div className="panel panel-default">
@@ -138,7 +109,7 @@ const Content = () => {
                                 egy fantasztikusan édes száz százalékos szőlőlé lett,
                                 amit gyorsan el is fogyasztottunk.</div>
                             <ul className="postcard__tagbox">
-                                <li className="tag__item"><i className="fas fa-tag mr-2"></i>Iskola</li>
+                                <li className="tag__item"><i className="fas fa-tag mr-2 mb-0"></i>Iskola</li>
 
                             </ul>
                         </div>

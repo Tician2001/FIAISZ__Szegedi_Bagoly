@@ -1,18 +1,19 @@
 
-import "../styles/NavbarStyles.css";
+import "../App.scss";
 import Logo from "../assets/Logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center border-bottom navbar-fixed-top">
-  <a className="navbar-brand p-3 m-3 " href="/">
-    <img src={Logo} alt="Logo" height="80" width="100%" />
+    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+  <a className="navbar-brand" href="/">
+    <img src={Logo} alt="" height="70px"/>
   </a>
-  <button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon "></span>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
   </button>
-  <div className="collapse navbar-collapse " id="navbarNavDropdown">
-    <ul className="navbar-nav navbar-right m-3 justify-content-center">
+
+  <div className="collapse navbar-collapse text-center" id="navbarSupportedContent">
+  <ul className="navbar-nav ml-auto">
     <li className="nav-item dropdown justify-content-center ">
     
     <a className="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -70,7 +71,6 @@ const Navbar = () => {
           <a className="dropdown-item" href="/">Szervezeti és működési szabályzat</a>
           <a className="dropdown-item" href="/adatkezelesi_tajekoztato">Adatkezelési tájékoztatók</a>
           <a className="dropdown-item" href="https://drive.google.com/file/d/17ij-N5A4xYtd2Oz58aPUROXY8LBwL9W0/view"target="_blank">Házirend</a>
-          
         </div>
       </li>
       <li className="nav-item dropdown ">
@@ -83,8 +83,10 @@ const Navbar = () => {
         </div>
       </li>
     </ul>
+    
   </div>
 </nav>
+
   )
 }
 
