@@ -1,10 +1,10 @@
 
 import "../App.scss";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/Winter_Owl_Blue-removebg-preview.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top " style={{background: "red"}}>
   <a className="navbar-brand" href="/">
     <img src={Logo} alt="" height="70px"/>
   </a>

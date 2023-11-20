@@ -8,121 +8,91 @@ import Kep6 from "../assets/KONDUKTÍV CSOPORT5.jpg"
 import vuk from "../assets/Vuk.jpg"
 import tuskevar from "../assets/Tüskevár.jpg";
 import TK from "../assets/szegediTK_1.jpg.png";
+import "../App.scss";
 
 
 
 const Cond = () => {
   return (
     <div className=" container-fluid d-flex justify-content-center text-center h4 py-4">
-
-      <div class="set">
-        <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%" /></div>
-      </div>
-      <div class="set set2">
-        <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%" /></div>
-      </div>
-      <div class="set set3">
-        <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%" /></div>
-        <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%" /></div>
-      </div>
       <div className="row content">
         <div className="col-sm-2 sidenav position-static float-left">
-          <div className="panel panel-default">
-            <p><a href="/szuloknek">Szülőknek</a></p>
-          </div>
-          <div className="panel panel-default ">
-            <p><a href="/diakoknak">Diákoknak</a></p>
-          </div>
-          <div className="panel panel-default">
-            <p><a href="/hirlevel">Hírlevél</a></p>
-          </div>
-          <div className="panel panel-default" id="kreta">
-            <p><a href="https://idp.e-kreta.hu/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dkreta-web%26response_type%3Dcode%26scope%3Dopenid%26state%3DOpenIdConnect.AuthenticationProperties%253DNORHRvbF5rHrjHrefhJeBa_x43g17xLRkuD74ipe2LYfdJwiAMFynD_3pPxrpiXd0ulY2U87Nr7aj5q9kn5e5y2hHRveau6wMvVC_99WEugkfiZsJ33FmI2x4b-_ccOmPNE1b5M1OMcrC125LdKLcw%26response_mode%3Dform_post%26nonce%3D638296803926746520.Yjg1YmIyOGYtYjQ0MC00YmE3LTg3Y2YtYmRlMTc1OWM1ZWI4ZDgzNTM4NDUtYWU3MC00MzY4LTg4NzMtYzNiYWI5ZTQwNDMx%26institute_code%3Dklik029662001%26institute_data%3DeyJuZXh0X3VwZGF0ZV9kYXRlX3RpbWUiOiIyMDIzLjA5LjE5LiAyMjowMCIsImlzX3N6aXJfaW5zdGl0dXRlIjpmYWxzZSwiaXNfbGljZW5jZV92YWxpZCI6dHJ1ZSwiaXNfYXJjaGl2ZSI6ZmFsc2UsImlzX2Nzb2trZW10ZXR0X2dvbmR2aXNlbG8iOnRydWUsImlzX2ludGV6bWVueV9yb3ZpZG5ldiI6dHJ1ZSwiaXNfc3VjY2Vzc19hdXRob3JpemVkX2RhdGUiOmZhbHNlfQ%253D%253D%26prompt%3Dlogin%26redirect_uri%3Dhttps%253A%252F%252Fklik029662001.e-kreta.hu%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0%26suppressed_prompt%3Dlogin" target="_blank">Kréta E-napló</a></p>
-          </div>
-          <div className="panel panel-default" id="kreta">
-            <p><a href="https://ngsz.hu/2021/01/01/kozetkeztetes/#tajekoztatok" target="_blank">Közétkeztetés</a></p>
-          </div>
-          <div className="panel panel-default">
-            <p><a href="https://drive.google.com/file/d/18KzjcPKw03m8qutMPMbtMAn8sggobsav/view" target="_blank">Iskolai Segítők</a></p>
-          </div>
-          <div className="panel panel-default">
-            <p><a href="/" >Iskola pszichológus</a></p>
-          </div>
-          <div className="panel panel-default">
-            <p><a href="/karrier" >Karrier</a></p>
-          </div>
-          <div className="panel panel-default">
-            <p><a href="/aranykapu" >Aranykapu</a></p>
-          </div>
+        <div className="card card-body sidebutton p-2 ">
+                        <p><a href="/szuloknek">Szülőknek</a></p>
+                    </div>
+                    <div className="card card-body sidebutton p-2 ">
+                        <p><a href="/diakoknak">Diákoknak</a></p>
+                    </div>
+                    <div className="card card-body sidebutton p-2 ">
+                        <p><a href="/hirlevel">Hírlevél</a></p>
+                    </div>
+                    <div className="card card-body sidebutton p-2" id="kreta">
+                        <p><a href="https://idp.e-kreta.hu/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dkreta-web%26response_type%3Dcode%26scope%3Dopenid%26state%3DOpenIdConnect.AuthenticationProperties%253DNORHRvbF5rHrjHrefhJeBa_x43g17xLRkuD74ipe2LYfdJwiAMFynD_3pPxrpiXd0ulY2U87Nr7aj5q9kn5e5y2hHRveau6wMvVC_99WEugkfiZsJ33FmI2x4b-_ccOmPNE1b5M1OMcrC125LdKLcw%26response_mode%3Dform_post%26nonce%3D638296803926746520.Yjg1YmIyOGYtYjQ0MC00YmE3LTg3Y2YtYmRlMTc1OWM1ZWI4ZDgzNTM4NDUtYWU3MC00MzY4LTg4NzMtYzNiYWI5ZTQwNDMx%26institute_code%3Dklik029662001%26institute_data%3DeyJuZXh0X3VwZGF0ZV9kYXRlX3RpbWUiOiIyMDIzLjA5LjE5LiAyMjowMCIsImlzX3N6aXJfaW5zdGl0dXRlIjpmYWxzZSwiaXNfbGljZW5jZV92YWxpZCI6dHJ1ZSwiaXNfYXJjaGl2ZSI6ZmFsc2UsImlzX2Nzb2trZW10ZXR0X2dvbmR2aXNlbG8iOnRydWUsImlzX2ludGV6bWVueV9yb3ZpZG5ldiI6dHJ1ZSwiaXNfc3VjY2Vzc19hdXRob3JpemVkX2RhdGUiOmZhbHNlfQ%253D%253D%26prompt%3Dlogin%26redirect_uri%3Dhttps%253A%252F%252Fklik029662001.e-kreta.hu%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0%26suppressed_prompt%3Dlogin" target="_blank">Kréta E-napló</a></p>
+                    </div>
+                    <div className="card card-body sidebutton p-2" id="kreta">
+                        <p><a href="https://ngsz.hu/2021/01/01/kozetkeztetes/#tajekoztatok" target="_blank">Közétkeztetés</a></p>
+                    </div>
+                    <div className="card card-body sidebutton p-2">
+                        <p><a href="https://drive.google.com/file/d/18KzjcPKw03m8qutMPMbtMAn8sggobsav/view" target="_blank">Iskolai Segítők</a></p>
+                    </div>
+                    <div className="card card-body sidebutton p-2">
+                        <p><a href="/" >Pszichológus</a></p>
+                    </div>
+                    <div className="card card-body sidebutton p-2">
+                        <p><a href="/karrier" >Karrier</a></p>
+                    </div>
+                    <div className="card card-body sidebutton p-2">
+                        <p><a href="/aranykapu" >Aranykapu</a></p>
+                    </div>
 
 
 
         </div>
         <div className=" col-sm-8 bg-transparent border  rounded shadow text-left">
           <div className='container  w-100 mb-3'>
-            <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-              </ol>
-              <div class="carousel-inner ">
-                <div class="item active">
-                  <img class="d-block w-100" src={Kep1} alt="First slide" />
-                </div>
-                <div class="item">
-                  <img class="d-block w-100" src={Kep2} alt="Second slide" />
-                </div>
-                <div class="item">
-                  <img class="d-block w-100" src={Kep3} alt="Third slide" />
-                </div>
-                <div class="item">
-                  <img class="d-block w-100" src={Kep4} alt="Third slide" />
-                </div>
-                <div class="item">
-                  <img class="d-block w-100" src={Kep5} alt="Third slide" />
-                </div>
-                <div class="item">
-                  <img class="d-block w-100" src={Kep6} alt="Third slide" />
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
+          <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+  <ol className="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+  </ol>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img className="d-block w-100" src={Kep1} alt="First slide"/>
+    </div>
+    <div className="carousel-item">
+      <img className="d-block w-100" src={Kep2} alt="Second slide"/>
+    </div>
+    <div className="carousel-item">
+      <img className="d-block w-100" src={Kep3} alt="Third slide"/>
+    </div>
+    <div className="carousel-item">
+      <img className="d-block w-100" src={Kep4} alt="Third slide"/>
+    </div>
+    <div className="carousel-item">
+      <img className="d-block w-100" src={Kep5} alt="Third slide"/>
+    </div>
+    <div className="carousel-item">
+      <img className="d-block w-100" src={Kep6} alt="Third slide"/>
+    </div>
+  </div>
+  <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="sr-only">Previous</span>
+  </a>
+  <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="sr-only">Next</span>
+  </a>
+</div>
           </div>
 
-          <div class="">
-            <div class="container-fluid ">
-              <div class="">
+          <div className="">
+            <div className="container-fluid ">
+              <div className="">
                 <h2>
                   A Szegedi Fekete István Általános Iskola  <span>konduktív csoportja</span>
                 </h2>
@@ -130,14 +100,14 @@ const Cond = () => {
                   Intézményünk a térség kijelölt iskolája a mozgásukban akadályozott tanulók integrált oktatására. A konduktív csoport a különböző osztályfokú, mozgássérülésből adódó problémákkal küzdő, megküzdő gyermekeket és a velük foglakozó nevelőket fogja össze.
                 </p>
               </div>
-              <div class="row">
-                <div class="col-md-6 mb-3">
+              <div className="row">
+                <div className="col-md-6 mb-3">
 
                 </div>
-                <div class=" col-md-6 mb-3">
-                  <div class="box ">
+                <div className=" col-md-6 mb-3">
+                  <div className="box ">
 
-                    <div class="detail-box ">
+                    <div className="detail-box ">
                       <h5>
 
                       </h5>
@@ -153,8 +123,8 @@ const Cond = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 ">
-                  <div class="box ">
+                <div className="col-md-6 ">
+                  <div className="box ">
                     <p>
                       A gyerekek megoldásokra való törekvését mind sérült, mind ép tanulóknál erősíti a mozgásukban akadályozott gyermekek jelenléte, megismerése, barátsága. Ez az élet nagyon sok területén egy olyan útravaló, amit nem lehet könyvekből jól megtanulni.
                       A mozgássérült gyermekek intézményünkbe ajánlás útján kerülhetnek. Jó a kapcsolatunk a városi integráló óvodáiban és korai fejlesztőiben dolgozó pedagógusokkal, akik ajánlják a szülőknek az intézményünket.<hr></hr>
@@ -170,7 +140,7 @@ const Cond = () => {
 
                       <strong>A legfontosabb célunk a boldog iskoláskor lehetőségének megteremtése.</strong>
                     </p>
-                    <div class="detail-box ">
+                    <div className="detail-box ">
                     </div>
                   </div>
                 </div>
@@ -185,20 +155,20 @@ const Cond = () => {
           <div className="panel panel-default">
             <p>Fenntartónk</p>
           </div>
-          <div className="panel panel-default">
-            <a href="http://kk.gov.hu/szeged" target="_blank">
-              <img className="img-fluid" src={TK} />
-            </a>
-          </div>
-          <div className="panel panel-default">
-            <img className="img-fluid" src={vuk} />
-          </div>
-          <div className="panel panel-default">
-            <img className="img-fluid" src={tuskevar} />
-          </div>
-          <div className="panel panel-default">
-            <p><a href="https://www.facebook.com/FIAISZ" target="_blank">Facebook</a></p>
-          </div>
+          <div className="card card-body">
+                        <a href="http://kk.gov.hu/szeged" target="_blank">
+                            <img className="img-fluid" src={TK} />
+                        </a>
+                    </div>
+                    <div className="card card-body">
+                        <img className="img-fluid" src={vuk} />
+                    </div>
+                    <div className="card card-body">
+                        <img className="img-fluid" src={tuskevar} />
+                    </div>
+                    <div className="card card-body sidebutton p-2" >
+                        <p><a href="https://www.facebook.com/FIAISZ" target="_blank">Facebook</a></p>
+                    </div>
         </div>
       </div>
     </div>

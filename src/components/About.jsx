@@ -9,36 +9,7 @@ import TK from "../assets/szegediTK_1.jpg.png";
 const About = () => {
   return (
     <div className="container-fluid d-flex justify-content-center text-center h4 py-4">
-      <div className="set">
-                <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%"/></div>
-            </div>
-            <div className="set set2">
-                <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%"/></div>
-            </div>
-            <div className="set set3">
-                <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/M59443B/leaves1.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/v1WGv6b/leaves2.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/V3KSBdV/leaves3.png" width="30%" height="30%"/></div>
-                <div><img src="https://i.ibb.co/jkGMYLM/leaves4.png" width="30%" height="30%"/></div>
-            </div>
+      
       <div className="row content">
         <div className="col-sm-2 sidenav position-static float-left">
           <div className="panel panel-default">
