@@ -5,6 +5,7 @@ import TK from "../assets/szegediTK_1.jpg.png";
 import Szinez from "../assets/szinezzki.jpg";
 import Csoportkep from "../assets/tura.jpg";
 import Bicikli from "../assets/bicikli.jpg";
+import Kekter from "../assets/KEK_TER logó 124x141.png";
 
 import Csoportkep1 from "../assets/csoportkep.jpg";
 import Preseles from "../assets/preseles.jpg";
@@ -47,16 +48,7 @@ const Content = () => {
   <li></li>
   <li></li>
   <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+ 
   <li></li>
   <li></li>
 </ul>
@@ -273,6 +265,9 @@ const Content = () => {
                     </div>
                     <div className="card card-body">
                         <img className="img-fluid" src={tuskevar} />
+                    </div>
+                    <div className="card card-body">
+                        <img className="img-fluid" src={Kekter} />
                     </div>
                     <div className="card card-body sidebutton p-2" >
                         <p><a href="https://www.facebook.com/FIAISZ" target="_blank">Facebook</a></p>
